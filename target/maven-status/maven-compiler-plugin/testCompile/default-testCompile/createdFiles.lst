@@ -1,0 +1,4 @@
+org\testing\automation\PlayStoreExceptions.class
+org\testing\automation\PlayStore.class
+org\testing\automation\Config.class
+org\testing\automation\PlayStoreHappyPath.class

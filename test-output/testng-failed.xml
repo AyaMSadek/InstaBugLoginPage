@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="alternativePath(failed)">
+    <classes>
+      <class name="org.testing.automation.InstaBugLoginHappyPath">
+        <methods>
+          <include name="login"/>
+          <include name="driverClosing"/>
+        </methods>
+      </class> <!-- org.testing.automation.InstaBugLoginHappyPath -->
+      <class name="org.testing.automation.InstaBugLoginAlternativePaths">
+        <methods>
+          <include name="LoginThenNavigateBack"/>
+          <include name="LoginWithChangedPassword"/>
+          <include name="LogoutAndNavigationBack"/>
+        </methods>
+      </class> <!-- org.testing.automation.InstaBugLoginAlternativePaths -->
+    </classes>
+  </test> <!-- alternativePath(failed) -->
+</suite> <!-- Failed suite [Suite] -->

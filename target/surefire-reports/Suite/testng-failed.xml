@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="happyPath(failed)">
+    <classes>
+      <class name="org.testing.automation.PlayStoreHappyPath">
+        <methods>
+          <include name="testHappyPathAddFirstAndLastGameToWhishListAndInstallThem"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.testing.automation.PlayStoreHappyPath -->
+      <class name="org.testing.automation.PlayStoreExceptions">
+        <methods>
+          <include name="driverClosing"/>
+        </methods>
+      </class> <!-- org.testing.automation.PlayStoreExceptions -->
+    </classes>
+  </test> <!-- happyPath(failed) -->
+  <test name="exceptions(failed)">
+    <classes>
+      <class name="org.testing.automation.PlayStoreHappyPath">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.testing.automation.PlayStoreHappyPath -->
+      <class name="org.testing.automation.PlayStoreExceptions">
+        <methods>
+          <include name="driverClosing"/>
+          <include name="AlternatePath_InvalidPassword"/>
+          <include name="testAlternatePath_FirstOrLastGameIsAlreadyAddedToWishList"/>
+          <include name="testAlternatePath_thereIsNoDeviceForInstallation"/>
+          <include name="AlternatePath_InvalidEmail"/>
+        </methods>
+      </class> <!-- org.testing.automation.PlayStoreExceptions -->
+    </classes>
+  </test> <!-- exceptions(failed) -->
+</suite> <!-- Failed suite [Suite] -->

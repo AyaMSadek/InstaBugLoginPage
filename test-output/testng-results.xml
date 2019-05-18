@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="743968" started-at="2019-05-17T17:46:24Z" finished-at="2019-05-17T17:58:48Z">
+    <groups>
+    </groups>
+    <test name="happyPath" duration-ms="446852" started-at="2019-05-17T17:46:24Z" finished-at="2019-05-17T17:53:51Z">
+      <class name="org.testing.automation.InstaBugLoginHappyPath">
+        <test-method status="PASS" signature="login()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="login" is-config="true" duration-ms="31503" started-at="2019-05-17T19:46:24Z" finished-at="2019-05-17T19:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="Login" duration-ms="12999" started-at="2019-05-17T19:46:56Z" finished-at="2019-05-17T19:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="LoginWithGoogle()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="LoginWithGoogle" duration-ms="99105" started-at="2019-05-17T19:47:09Z" finished-at="2019-05-17T19:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithGoogle -->
+        <test-method status="PASS" signature="LoginWithGitHub()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="LoginWithGitHub" duration-ms="110483" started-at="2019-05-17T19:48:48Z" finished-at="2019-05-17T19:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithGitHub -->
+        <test-method status="PASS" signature="LoginWithMicrosoft()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="LoginWithMicrosoft" duration-ms="79879" started-at="2019-05-17T19:50:39Z" finished-at="2019-05-17T19:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithMicrosoft -->
+        <test-method status="PASS" signature="LogoutIsDirectedToLoginPageSuccessfully()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="LogoutIsDirectedToLoginPageSuccessfully" duration-ms="45248" started-at="2019-05-17T19:51:58Z" finished-at="2019-05-17T19:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutIsDirectedToLoginPageSuccessfully -->
+        <test-method status="PASS" signature="ForgotPasswordLink()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="ForgotPasswordLink" duration-ms="46475" started-at="2019-05-17T19:52:44Z" finished-at="2019-05-17T19:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordLink -->
+        <test-method status="PASS" signature="SignUpLink()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="SignUpLink" duration-ms="21050" started-at="2019-05-17T19:53:30Z" finished-at="2019-05-17T19:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpLink -->
+        <test-method status="PASS" signature="driverClosing()[pri:0, instance:org.testing.automation.InstaBugLoginHappyPath@29ee9faa]" name="driverClosing" is-config="true" duration-ms="75" started-at="2019-05-17T19:53:51Z" finished-at="2019-05-17T19:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClosing -->
+      </class> <!-- org.testing.automation.InstaBugLoginHappyPath -->
+    </test> <!-- happyPath -->
+    <test name="negativePath" duration-ms="103832" started-at="2019-05-17T17:53:51Z" finished-at="2019-05-17T17:55:35Z">
+      <class name="org.testing.automation.InstaBugLoginNegativePaths">
+        <test-method status="PASS" signature="InvalidEmail_ValidationMessage()[pri:0, instance:org.testing.automation.InstaBugLoginNegativePaths@5622fdf]" name="InvalidEmail_ValidationMessage" duration-ms="25931" started-at="2019-05-17T19:53:51Z" finished-at="2019-05-17T19:54:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidEmail_ValidationMessage -->
+        <test-method status="PASS" signature="InvalidPassword_ValidationMessage()[pri:0, instance:org.testing.automation.InstaBugLoginNegativePaths@5622fdf]" name="InvalidPassword_ValidationMessage" duration-ms="19713" started-at="2019-05-17T19:54:17Z" finished-at="2019-05-17T19:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPassword_ValidationMessage -->
+        <test-method status="PASS" signature="InvalidEmail()[pri:0, instance:org.testing.automation.InstaBugLoginNegativePaths@5622fdf]" name="InvalidEmail" duration-ms="18896" started-at="2019-05-17T19:54:37Z" finished-at="2019-05-17T19:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidEmail -->
+        <test-method status="PASS" signature="WrongPassword()[pri:0, instance:org.testing.automation.InstaBugLoginNegativePaths@5622fdf]" name="WrongPassword" duration-ms="39285" started-at="2019-05-17T19:54:56Z" finished-at="2019-05-17T19:55:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPassword -->
+      </class> <!-- org.testing.automation.InstaBugLoginNegativePaths -->
+    </test> <!-- negativePath -->
+    <test name="alternativePath" duration-ms="193239" started-at="2019-05-17T17:55:35Z" finished-at="2019-05-17T17:58:48Z">
+      <class name="org.testing.automation.InstaBugLoginAlternativePaths">
+        <test-method status="PASS" signature="NotSignedUpAccount()[pri:0, instance:org.testing.automation.InstaBugLoginAlternativePaths@53b32d7]" name="NotSignedUpAccount" duration-ms="25186" started-at="2019-05-17T19:55:35Z" finished-at="2019-05-17T19:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotSignedUpAccount -->
+        <test-method status="PASS" signature="LoggedInAccount()[pri:0, instance:org.testing.automation.InstaBugLoginAlternativePaths@53b32d7]" name="LoggedInAccount" duration-ms="20253" started-at="2019-05-17T19:56:00Z" finished-at="2019-05-17T19:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedInAccount -->
+        <test-method status="PASS" signature="LoginThenNavigateBack()[pri:0, instance:org.testing.automation.InstaBugLoginAlternativePaths@53b32d7]" name="LoginThenNavigateBack" duration-ms="35270" started-at="2019-05-17T19:56:21Z" finished-at="2019-05-17T19:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginThenNavigateBack -->
+        <test-method status="PASS" signature="LogoutAndNavigationBack()[pri:0, instance:org.testing.automation.InstaBugLoginAlternativePaths@53b32d7]" name="LogoutAndNavigationBack" duration-ms="58283" started-at="2019-05-17T19:56:56Z" finished-at="2019-05-17T19:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutAndNavigationBack -->
+        <test-method status="PASS" signature="LoginWithChangedPassword()[pri:0, instance:org.testing.automation.InstaBugLoginAlternativePaths@53b32d7]" name="LoginWithChangedPassword" duration-ms="54236" started-at="2019-05-17T19:57:54Z" finished-at="2019-05-17T19:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithChangedPassword -->
+      </class> <!-- org.testing.automation.InstaBugLoginAlternativePaths -->
+    </test> <!-- alternativePath -->
+  </suite> <!-- Suite -->
+</testng-results>
