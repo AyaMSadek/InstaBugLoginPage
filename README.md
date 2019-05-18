@@ -45,3 +45,4 @@ See deployment for notes on how to deploy the project on a live system.
 5) Install/Add TestNG plugin to Eclipse.
 
 6) Run **testng.xml** File.
+![alt text](https://github.com/AyaMSadek/InstaBugLoginPage/blob/master/TestNG.png)
