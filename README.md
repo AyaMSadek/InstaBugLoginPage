@@ -6,13 +6,21 @@ The test should do the following steps:
 2) Login with different ways:
 * Login with saved valid email and valid password.
 * Login with GitHub, Google and Microsoft.
-* Login with invalid email or password.
-* Login with a logged in account.
+* Verify that "Forgot Password" link is directed to the Forgot password page successfully. 
+* Verify that "Sign Up" link is directed to the sign up page successfully.
+* Verify that the user is directed to the login page successfully when logging out.
+* Login with a logged-in account.
 * Login with an account that isn't signed up for InstaBug.
-* Login with valid email and password then navigate back from browser.
+* Verify that the user isn't logged out when navigating back from the browser after logging in successfully.
+* Verify that the user isn't logged in when navigating back from the browser after logging out successfully.
+* Verfiy that the user can login with the changed new password.
+* Login with invalid email or password.
+* Verify that the validation messages are displayed below "Email" & "Password" when logging in with invalid credentials.
+* Verfiy that the login button is disabled if the Email is invalid.
+ 
 
-**And this link is for a video that displays the previous steps and the test results report using TestNG Framework**
-
+**And this is the results report using TestNG framework**
+![alt text](https://github.com/AyaMSadek/InstaBugLoginPage/blob/master/TestNG.png)
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
@@ -45,4 +53,3 @@ See deployment for notes on how to deploy the project on a live system.
 5) Install/Add TestNG plugin to Eclipse.
 
 6) Run **testng.xml** File.
-![alt text](https://github.com/AyaMSadek/InstaBugLoginPage/blob/master/TestNG.png)
